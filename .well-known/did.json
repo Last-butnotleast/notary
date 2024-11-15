@@ -1,20 +1,25 @@
 {
-  "@context": ["https://www.w3.org/ns/did/v1", "https://w3id.org/security/suites/jws-2020/v1"],
-  "id": "did:web:localhost%3A3001",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:last-butnotleast.github.io:notary",
   "verificationMethod": [
     {
       "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
-      "id": "did:web:localhost%3A3001#X509-JWK2020",
+      "id": "did:web:last-butnotleast.github.io:notary#X509-JWK2020",
       "type": "JsonWebKey2020",
-      "controller": "did:web:localhost%3A3001",
+      "controller": "did:web:last-butnotleast.github.io:notary",
       "publicKeyJwk": {
         "kty": "RSA",
         "n": "2Rvjcp47rnF_kw9_t1Lvh9jXTmTmFU0dzHVcGENild6gm1XymdTnFBqC6rfYtodvVes_8rOm0QxQda_QHLCMkUEQP5N_6TrrZyeM0iXl6cFxxZKyAb-tum3nTBRYH_9m_zGgjxlzuqaSEwf6aUwM9JyJkTWgyA8HnlJ5opCPoyRbObMo75v9Ws65kZUOD0jqb6kIvW_G87GkSUMiVFJGCYAE7WKaybWR-omySwW7KJG8JED6nn1CyHPcTKS1kfS3onxbIhblMp02JquORqRSRovxJkZKr1fJ32bN9PSXX04HqtuF1AwwrfaF-VmjdgsnSqaHh82Hfdng6aSVsz9TNw",
         "e": "AQAB",
         "alg": "RS256",
-        "x5u": "https://localhost:3001/.well-known/certificate.pem"
+        "x5u": "https://last-butnotleast.github.io/notary/.well-known/certificate.pem"
       }
     }
   ],
-  "assertionMethod": ["did:web:localhost%3A3001#X509-JWK2020"]
+  "assertionMethod": [
+    "did:web:last-butnotleast.github.io:notary#X509-JWK2020"
+  ]
 }
