@@ -15,7 +15,7 @@
         "e": "AQAB",
         "kid": "X509-JWK",
         "alg": "PS256",
-        "x5u": "https://www.last-butnotleast.github.io/notary/.well-known/x509CertificateChain.pem"
+        "x5u": "https://last-butnotleast.github.io/notary/.well-known/x509CertificateChain.pem"
       }
     }
   ],
