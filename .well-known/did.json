@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/jwk/v1"
+  ],
+  "id": "did:web:last-butnotleast.github.io:notary",
+  "verificationMethod": [
+    {
+      "id": "did:web:last-butnotleast.github.io:notary#X509-JWK",
+      "type": "JsonWebKey",
+      "controller": "did:web:last-butnotleast.github.io:notary",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "sT9nnQKT-NYooeKoPkc06kxODm2Q56GLHvOkN1jBEjgsm-VDKQRO3m345gQl3vECjyEuL19CBQB7-FxoRSFVV0UsZxi0rpNBz5nmdApHB1hXBd9_TfQQu8MVIFRSdOWTHWaXDq0qo9fua06Nw7dJQqbnj7ShMdyF9LOBsBBD4GZLYGxQSqqtagRvnwhx4n-AhnVRQJuHoJXYMXQc2K-URZEj5KiIqpe_C2RSVc9yP3onzSrrkmlTjgnHJEvgjBb58rJ90xOuCkbEW-TxiIgjNHvi6v8wHmIok_AM0pPmQORAbL0vSWIYFCv_OHg87Mcci5RuzT4_IVS6hJJOFZyNxw",
+        "e": "AQAB",
+        "kid": "X509-JWK",
+        "alg": "PS256",
+        "x5u": "https://www.last-butnotleast.github.io/notary/.well-known/x509CertificateChain.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:last-butnotleast.github.io:notary#X509-JWK"
+  ]
+}
